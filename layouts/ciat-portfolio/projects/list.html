@@ -1,0 +1,21 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{ .Content }}
+
+{{- $pages := .Pages -}}
+{{- if $pages }}
+  <ul class="post-list">
+    {{- range $pages }}
+      <li class="post-entry">
+        <h2 class="entry-header"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{- with .Summary }}<p class="entry-content">{{ . }}</p>{{ end -}}
+      </li>
+    {{- end }}
+  </ul>
+{{- else }}
+  <p>No projects yet.</p>
+{{- end }}
+{{ end }}
