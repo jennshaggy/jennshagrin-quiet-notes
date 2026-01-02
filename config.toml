@@ -1,4 +1,8 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://jennshaggy.github.io/jennshagrin-quiet-notes"
 languageCode = "en-us"
 title = "Jenn Shagrin"
 theme = "PaperMod"
+[params]
+defaultTheme = "dark"
+
+
