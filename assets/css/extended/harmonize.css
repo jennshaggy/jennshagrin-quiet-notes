@@ -193,5 +193,27 @@ header.header {
   padding-bottom: 0.85rem;
 }
 
+/* =========================
+   Profile Mode — Button Hierarchy
+   ========================= */
+
+/* PaperMod profile buttons */
+.profile .buttons a {
+  padding: 0.65rem 0.9rem;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+/* Primary button (first) */
+.profile .buttons a:first-child {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+}
+
+/* Secondary buttons (rest) */
+.profile .buttons a:not(:first-child) {
+  opacity: 0.92;
+}
+
 
 
