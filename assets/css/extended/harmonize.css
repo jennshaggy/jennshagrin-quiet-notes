@@ -122,4 +122,59 @@ p {
   font-weight: 400;
 }
 
+/* =========================
+   Section Rhythm & Spacing
+   ========================= */
+
+/* Give sections room to breathe */
+main section,
+main article {
+  margin-bottom: 3rem;
+}
+
+/* Headings separation */
+h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Lists and paragraphs spacing */
+p,
+ul,
+ol {
+  margin-bottom: 1.25rem;
+}
+
+/* =========================
+   Subtle Section Dividers (PaperMod)
+   ========================= */
+
+/* Divider + breathing room before each H2 (except the first) */
+.post-content h2 {
+  scroll-margin-top: 90px;
+}
+
+.post-content h2:not(:first-of-type) {
+  margin-top: 3.25rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Short accent rule under every H2 */
+.post-content h2::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 2px;
+  margin-top: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+
+
 
