@@ -4,3 +4,28 @@ title = "Jenn Shagrin"
 copyright = "Academic Work: [CIAT Portfolio](/ciat-portfolio/) · © 2026 Jenn Shagrin"
 
 theme = "PaperMod"
+googleFonts = ["Inter:wght@400;500;600"]
+
+[params.profileMode]
+enabled = true
+title = "Jenn Shagrin"
+subtitle = "Cybersecurity · Systems · Defense"
+imageUrl = "/images/profile.png"
+
+
+[[params.profileMode.buttons]]
+name = "Projects"
+url = "/projects/"
+
+[[params.profileMode.buttons]]
+name = "Systems & Hardening"
+url = "/systems/"
+
+[[params.profileMode.buttons]]
+name = "Labs"
+url = "/labs/"
+
+[[params.profileMode.buttons]]
+name = "CIAT Portfolio"
+url = "/ciat-portfolio/"
+
