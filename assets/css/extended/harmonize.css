@@ -1,0 +1,57 @@
+/* =========================
+   Phase 2 — Quiet Site Harmonization
+   Scope: typography + spacing only
+   Non-destructive, CIAT-safe
+   ========================= */
+
+/* Global reading comfort */
+:root {
+  --content-max-width: 760px;
+}
+
+/* Improve overall text rhythm */
+body {
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+}
+
+/* Headings: calmer, more modern */
+h1, h2, h3, h4 {
+  letter-spacing: -0.01em;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Paragraph spacing */
+p {
+  margin-bottom: 1.1rem;
+}
+
+/* Lists: reduce cramped feeling */
+ul, ol {
+  margin-top: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+/* CIAT Portfolio specific softening */
+.ciat-portfolio h1,
+.ciat-portfolio h2,
+.ciat-portfolio h3 {
+  margin-top: 2.4rem;
+}
+
+/* Reduce “wall of text” feel */
+.post-content {
+  max-width: var(--content-max-width);
+}
+
+/* Link tone: professional, not harsh */
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Tables: breathe */
+table {
+  margin: 1.5rem 0;
+}
