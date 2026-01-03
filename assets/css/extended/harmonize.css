@@ -175,6 +175,23 @@ ol {
   background-color: rgba(255, 255, 255, 0.16);
 }
 
+/* =========================
+   Nav Title Alignment
+   ========================= */
+
+/* Make the site title in the header match the new typographic system */
+header .logo,
+header .logo a {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  font-size: 1.15rem;
+}
+
+/* Slightly tighten header spacing so it feels intentional */
+header.header {
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+}
 
 
 
