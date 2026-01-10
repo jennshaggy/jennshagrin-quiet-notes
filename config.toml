@@ -1,31 +1,43 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://jennshaggy.github.io/"
 languageCode = "en-us"
-title = "Jenn Shagrin" 
-copyright = "Academic Work: [CIAT Portfolio](/ciat-portfolio/) · © 2026 Jenn Shagrin"
-
+title = "Jenn Shagrin"
 theme = "PaperMod"
-googleFonts = ["Inter:wght@400;500;600"]
 
 [params.profileMode]
 enabled = true
-title = "Jenn Shagrin"
-subtitle = "Cybersecurity · Systems · Defense"
 imageUrl = "/images/profile.png"
+imageTitle = "Jenn Shagrin"
 
+[[menu.main]]
+name = "Systems"
+url = "/systems/"
+weight = 10
 
-[[params.profileMode.buttons]]
+[[menu.main]]
+name = "Security"
+url = "/security/"
+weight = 20
+
+[[menu.main]]
+name = "Networking"
+url = "/networking/"
+weight = 30
+
+[[menu.main]]
 name = "Projects"
 url = "/projects/"
+weight = 40
 
-[[params.profileMode.buttons]]
-name = "Systems & Hardening"
-url = "/systems/"
+[[menu.main]]
+name = "Platforms & Training"
+url = "/platforms/"
+weight = 50
 
-[[params.profileMode.buttons]]
-name = "Labs"
-url = "/labs/"
-
-[[params.profileMode.buttons]]
+[[menu.main]]
 name = "CIAT Portfolio"
 url = "/ciat-portfolio/"
+weight = 60
+
+
+
 
